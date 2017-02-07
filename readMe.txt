@@ -3,28 +3,28 @@
 с использованием метода массива forEach,
 с использованием метода массива filter.
 
-ДХ А1:
-"use strict"
-
-function countVowels(str) {
-	str = str.toLowerCase();
-
-	var vowels = "ауоыиэяюёе",
-		count = 0;
-
-	for (var i = 0; i < str.length; i++) {
-
-		if (vowels.indexOf(str[i]) !== -1) {
-			count++;
-		}			
-	}
-
-	return count;
-}
-
-var str = prompt("Напишите строку", 'программист');
-
-console.log("В строке " + "'" + str + "'" + " - " + countVowels(str) + " русских гласных букв");
+ДЗ А1:
+//"use strict"
+//
+//function countVowels(str) {
+//	str = str.toLowerCase();
+//
+//	var vowels = "ауоыиэяюёе",
+//		count = 0;
+//
+//	for (var i = 0; i < str.length; i++) {
+//
+//		if (vowels.indexOf(str[i]) !== -1) {
+//			count++;
+//		}			
+//	}
+//
+//	return count;
+//}
+//
+//var str = prompt("Напишите строку", 'программист');
+//
+//console.log("В строке " + "'" + str + "'" + " - " + countVowels(str) + " русских гласных букв");
 
 
 
