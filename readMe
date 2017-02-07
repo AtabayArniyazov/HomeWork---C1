@@ -1,0 +1,27 @@
+Домашнее задание C1
+Переписать ДЗ A1 (подсчёт гласных букв в строке) без использования циклов, двумя способами:
+с использованием метода массива forEach,
+с использованием метода массива filter.
+
+ДЗ А1:
+//"use strict"
+//
+//function countVowels(str) {
+//	str = str.toLowerCase();
+//
+//	var vowels = "ауоыиэяюёе",
+//		count = 0;
+//
+//	for (var i = 0; i < str.length; i++) {
+//
+//		if (vowels.indexOf(str[i]) !== -1) {
+//			count++;
+//		}			
+//	}
+//
+//	return count;
+//}
+//
+//var str = prompt("Напишите строку", 'программист');
+//
+//console.log("В строке " + "'" + str + "'" + " - " + countVowels(str) + " русских гласных букв");
